@@ -1,0 +1,51 @@
+# Binaries
+/trace
+/trace.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Build artifacts
+/bin/
+/dist/
+/build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TRACE runtime
+/analyses/
+/store/
+/audit.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ai/models/*.json
+!ai/models/bootstrap-v1.json
+
+# Benchmarks
+bench/results.json
+
+# Lab captures
+lab/captures/
